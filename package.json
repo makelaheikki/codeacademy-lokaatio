@@ -1,11 +1,13 @@
 {
   "name": "codeacademy-lokaatio",
-  "version": "1.0.0",
-  "description": "Todennäköisesti githubin kovin repo",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "start": "node index.js"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/makelaheikki/codeacademy-lokaatio.git"

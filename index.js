@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 8080;
-const server = app.listen(port, () => { .. })
+
+app.use(express.static("public"))
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
